@@ -20,10 +20,6 @@ PRODUCT_PACKAGES := \
     LiveWallpapersPicker \
     librs_jni
 
-# Vendor extension library
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.vendor.extension_library=/system/lib/libqc-opt.so
-
 # Publish that we support the live wallpaper feature.
 PRODUCT_COPY_FILES := \
     packages/wallpapers/LivePicker/android.software.live_wallpaper.xml:/system/etc/permissions/android.software.live_wallpaper.xml

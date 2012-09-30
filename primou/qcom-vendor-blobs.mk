@@ -27,19 +27,6 @@ PRODUCT_COPY_FILES += \
     vendor/htc/primou/prebuilt/system/lib/libqc-opt.so:system/lib/libqc-opt.so
 
 
-# Prebuilt libraries for CAF Chromium plug-ins
-PRODUCT_COPY_FILES += \
-    vendor/htc/primou/prebuilt/system/lib/libcneapiclient.so:/system/lib/libcneapiclient.so \
-    vendor/htc/primou/prebuilt/system/lib/libcneqmiutils.so:/system/lib/libcneqmiutils.so \
-    vendor/htc/primou/prebuilt/system/lib/libdiag.so:/system/lib/libdiag.so \
-    vendor/htc/primou/prebuilt/system/lib/libdnshostprio.so:/system/lib/libdnshostprio.so \
-    vendor/htc/primou/prebuilt/system/lib/libnetmonitor.so:/system/lib/libnetmonitor.so \
-    vendor/htc/primou/prebuilt/system/lib/libtcpfinaggr.so:/system/lib/libtcpfinaggr.so \
-    vendor/htc/primou/prebuilt/system/lib/pp_proc_plugin.so:/system/lib/pp_proc_plugin.so \
-    vendor/htc/primou/prebuilt/system/lib/qnet-plugin.so:/system/lib/qnet-plugin.so \
-    vendor/htc/primou/prebuilt/system/lib/tcp-connections.so:/system/lib/tcp-connections.so
-
-
 # All the blobs necessary for adreno
 PRODUCT_COPY_FILES += \
     vendor/htc/primou/prebuilt/system/etc/firmware/a225_pfp.fw:/system/etc/firmware/a225_pfp.fw \
